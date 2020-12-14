@@ -1,0 +1,488 @@
+*{
+
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+
+
+}
+
+body{
+
+background-color: #E6CCB3;
+
+}
+
+.header{
+color: white;
+font-family: Grandstander;
+text-align: center;
+font-size: 30px;
+margin-top: 20px;
+
+}
+
+nav{
+background-color: black;
+list-style-type: none;
+padding: 7px;
+overflow: hidden;
+text-align: center;
+margin-top: 20px;
+
+
+}
+
+nav a{
+color: white;
+padding: 14px 16px;
+text-decoration: none;
+font-family: helvetica;
+
+}
+
+nav a:hover:not(.active){
+color: #E6CCB3;
+
+}
+
+ h2{
+font-size: 30px;
+font-style: italic;
+margin-top: -1px;
+ }
+
+
+ .tekst{
+font-family: helvetica;
+text-align: center;
+color: white;
+font-size: 18px;
+font-style: italic;
+ }
+
+ strong{
+font-family: helvetica;
+color: black;
+font-size: 16px;
+
+ }
+
+
+/* Projekt side*/
+
+
+.grid-container-projekter{
+ display: grid;
+ grid-template-columns: auto auto auto auto;
+ grid-gap: 10px;
+ margin-top: 10px;
+ text-align: center;
+ margin-left: 5%;
+
+  }
+
+
+
+
+
+/* Projekt side*/
+
+
+
+.grid-container-forside{
+ display: grid;
+ grid-template-columns: auto auto auto auto;
+ grid-gap: 10px;
+ margin-top: 10px;
+ text-align: center;
+ margin-left: 5%;
+
+  }
+
+  .container-projekter {
+     position: relative;
+
+ }
+
+
+ .image {
+   opacity: 1;
+   display: block;
+   height: auto;
+   transition: .3s ease;
+   backface-visibility: hidden;
+
+
+ }
+
+ .main {
+   transition: .5s ease;
+   opacity: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   text-decoration: none;
+
+
+
+ }
+
+ .container-projekter:hover .image {
+   opacity: 0.3;
+
+ }
+
+ .container-projekter:hover .main {
+   opacity: 1;
+
+ }
+
+ .text-projekter {
+   background-color: #E6CCB3;
+   color: white;
+   padding: 15px 120px;
+   font-family: Grandstander;
+   text-align: center;
+   justify-content: space-between;
+   display: flex;
+   margin-left: -20%;
+   text-decoration: none;
+
+
+ }
+
+ .projekt-tekst{
+
+   background-color: #f2e5d9;
+   font-family: helvetica;
+   text-align: center;
+   margin-top: 2.5%;
+   padding: 2%;
+ }
+
+ .text-projekter{
+text-decoration: none;
+text-align: center;
+
+ }
+
+
+
+
+ /* flow sider*/
+
+.overskrifter{
+  background-color: #f2e5d9;
+  font-family: helvetica;
+  text-align: center;
+  margin-top: 2.5%;
+  padding: 2%;
+  font-size: 13px;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+
+}
+
+.under-skrift{
+margin-left: 2.5%;
+margin-right: 2.5%;
+font-family: helvetica;
+
+}
+
+
+  .container-flow1 {
+     position: relative;
+
+  }
+
+
+  .image {
+   opacity: 1;
+   display: block;
+   height: auto;
+   transition: .3s ease;
+   backface-visibility: hidden;
+
+
+  }
+
+  .middle {
+   transition: .5s ease;
+   opacity: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+
+
+
+  }
+
+  .container-flow1:hover .image {
+   opacity: 0.3;
+
+  }
+
+  .container-flow1:hover .middle {
+   opacity: 1;
+
+  }
+
+  k{
+    font-style: italic;
+    text-decoration: none;
+    color: black;
+    font-family: helvetica;
+    justify-content: space-between;
+    display: flex;
+    text-decoration: none;
+
+  }
+
+  .flow1{
+    text-decoration: none;
+  }
+
+
+
+
+
+/* Kontakt side*/
+
+ .kontakt {
+  font-family: helvetica;
+  border-radius: 30px;
+  margin-top:3%;
+  margin-left: 25px;
+
+
+ }
+
+ input[type=text], select, textarea {
+  font-family: helvetica;
+   width: 55%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 10px;
+   box-sizing: border-box;
+   margin-top: 2px;
+   margin-bottom: 16px;
+
+ }
+
+ input[type=send]{
+  font-family: helvetica;
+   text-align: center;
+   font-size: 12px;
+
+ }
+
+ input[type=send]:hover {
+   background-color: #E6CCB3;
+ }
+
+
+.icon-box1{
+margin-left: 65%;
+margin-top: -32%;
+
+
+}
+
+/* Kontakt side*/
+
+/* forside*/
+
+
+ .grid-container-forside{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  margin-top: 10px;
+  text-align: center;
+  margin-left: 5%;
+
+
+ }
+
+
+ .container {
+    position: relative;
+
+}
+
+
+.image {
+  opacity: 1;
+  display: block;
+  height: auto;
+  transition: .3s ease;
+  backface-visibility: hidden;
+
+
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-decoration: none;
+
+
+
+}
+
+.container:hover .image {
+  opacity: 0.3;
+
+}
+
+.container:hover .middle {
+  opacity: 1;
+
+}
+
+.text {
+  background-color: #E6CCB3;
+  color: white;
+  padding: 15px 200px;
+  font-family: Grandstander;
+  text-align: center;
+  justify-content: space-between;
+  display: flex;
+  text-decoration: none;
+
+
+}
+
+.ikon-forside{
+
+  text-align: center;
+}
+
+.tekst{
+
+  margin-top: -7%;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+
+
+/* forside*/
+
+/* om mig side*/
+
+.info{
+background-color: white;
+padding: 15px;
+font-family: helvetica;
+border-radius: 30px;
+margin-top:3%;
+margin-left: 25px;
+width: 30%;
+line-height: 1.6;
+
+
+}
+
+.erfaringer{
+  background-color: white;
+  padding: 15px;
+  font-family: helvetica;
+  border-radius: 30px;
+  margin-top: -14.9%;
+  margin-left: 34%;
+  width: 30%;
+
+
+}
+
+.video {
+      width: 40%;
+      height: 200px;
+      z-index: 2;
+      position: relative;
+      margin-left: 66%;
+      margin-top: -40%;
+
+
+
+  }
+
+
+
+  .video video {
+    width: 80%;
+      }
+
+
+.image-mig{
+
+  border-radius: 20px;
+  margin-left: 70%;
+  margin-top: -20%;
+}
+
+
+/* om mig side*/
+
+
+/* footer*/
+
+footer {
+    background-color:  #d9b18c;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    }
+
+
+.footercontainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerdiv1 {
+    margin-left: 15px;
+
+    }
+
+    .footerdiv2 {
+    margin-right: 100px;
+
+      }
+
+      .footer p{
+  font-family: helvetica;
+
+      }
+
+    .footerdiv2 a{
+    text-decoration: none;
+
+    }
+
+
+
+    /* footer*/
+
+
+
+@media only screen and (max-width: 600px){
+      .menu, .main, .right{
+        width: 100%;
+
+      }
